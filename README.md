@@ -10,6 +10,7 @@ This guide outlines the steps followed to install and configure the Pantheon con
 git clone https://github.com/StanfordSNR/pantheon.git
 cd pantheon
 git submodule update --init --recursive
+sudo ./tools/install_deps.sh
 ```
 
 ---
